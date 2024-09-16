@@ -378,6 +378,12 @@ body{
     align-items: center;
     justify-content: space-evenly;
 }
+.container-left{
+    display: flex;
+    flex-direction: column;
+    align-item: start;
+    gap: 20px;
+}
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
