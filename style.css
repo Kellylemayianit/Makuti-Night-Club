@@ -364,9 +364,20 @@ body {
 }
 /*contact*/
 * {
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-
+body{
+    font-family: 'Outfit';
+    background: linear-gradient(#ffdad5, #fff7f9);
+}
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
