@@ -180,21 +180,20 @@ background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) ,url(images
   font-size: 30px;
 }
 /*facilities*/
-*
-	{
+{
 		margin: 0;
 		padding: 0;
 		text-align: center;
 		text-family: arial;
 		transition: 0.5s;
-	}
-	body
-	{
+}
+body
+{
 		width: 100vw;
 		height: 100vh;
 		background: linear-gradient(#ffdad5, #fff7f9);
 		padding-top: 50px;
-	}
+}
 	h2
 	{
 		color: #2e937a;
