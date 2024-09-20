@@ -6,7 +6,7 @@ text-decoration:none;
 list-style: none;
 box-sizing: border-box;
 }
-body{
+
 body {
     margin: 0;
     font-family: montserrat;
@@ -95,9 +95,8 @@ color: #0082e6;
 #check:checked ~ ul{
 left: o;
 }
-}
     
-}
+	}
 
 .wrapper {
     background: #ffffff;
@@ -180,82 +179,6 @@ background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) ,url(images
   font-size: 30px;
 }
 /*facilities*/
-{
-		margin: 0;
-		padding: 0;
-		text-align: center;
-		text-family: arial;
-		transition: 0.5s;
-}
-body
-{
-		width: 100vw;
-		height: 100vh;
-		background: linear-gradient(#ffdad5, #fff7f9);
-		padding-top: 50px;
-}
-	h2
-	{
-		color: #2e937a;
-		font-weight: 400;
-	}
-	h1
-	{
-		color: #2e937a;
-		font-size: 45px;
-		margin-top: 10px;
-	}
-	.row
-	{
-		padding-top: 50px;
-		width:1000px;
-		margin: auto;
-		display:flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-	.box
-	{
-		width: 320px;
-		height: 500px;
-		background: #fff;
-		border-radius:20px;
-	}
-	.box img
-	{
-		width: 250px;
-	}
-	.box h3
-	{
-		font-size: 25px;
-		padding-left: 20px;
-		color: linear-gradient(#ffdad5, #fff7f9);
-	}
-	.box p
-	{
-		color: #4e746b;
-		padding-top: 20px;
-		line-height: 25px;
-	}	
-	.box .btn
-	{
-		width: 150px;
-		height: 40px;
-		background: #2e937a;
-		border-radius: 10px;
-		border: none;
-		color: #fff;
-		font-size: 17px;
-		cursor: pointer;
-		font-weight: bold;
-		margin-top: 20px;
-	}
-	.box .btn:hover
-	{
-		background: #fff;
-		color: #2e937a;
-		border: 1px
-	}
 /*team*/
 *{
     margin: 0;
