@@ -159,14 +159,14 @@ body {
 }
 
 .single_service img{
-    max-height: 200px;
-    max-width: 300px;
+    max-height: 350px;
+    max-width: 500px;
     position: relative;
     margin: 0;
     padding: 10px 20px;
     top: 0;
     right: 43px;
-    left: -35px;
+    left: -28px;
     border-radius: 50px; 
 }
 
