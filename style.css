@@ -296,7 +296,7 @@ body {
     box-sizing: border-box;
 }
 .team{
-    background-color: #eee;
+    background-color:linear gradient(#ffdad5, #fff7f9);
     font-family: "Century Gothic";
     min-height: 100vh;
     display: flex;
