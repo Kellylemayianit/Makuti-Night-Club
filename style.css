@@ -441,6 +441,18 @@ input[type=submit]:hover {
   .blog {
     width: 100px;
   }
+     .single_service img{
+	
+	max-height: 200px;
+    max-width: 300px;
+    position: relative;
+    margin: 0;
+    padding: 8px 17px;
+    top: 0;
+    right: 33px;
+    left: -47px;
+    border-radius: 50px; 
+}
 }
 /* Clear floats after image containers */
 .row::after {
