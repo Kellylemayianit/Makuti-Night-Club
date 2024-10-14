@@ -28,15 +28,10 @@ body {
     padding: 20px 0;
     line-height: 1.6;
 }
-.faicons{
-    display:inline-block;
-    color: #fff;
-    padding: 3px 15px;
-}
 .footer__text,
 .footer__link,
 .footer__title {
-    color: #aaaaaa;
+    color: #fff;
     padding: 3px 15px;
     display: block;
     background: black;
