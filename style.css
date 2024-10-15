@@ -7,6 +7,30 @@ body {
     
 }
 /*coreseuu*/
+.logo{
+ 
+    float: left;
+    padding-left: 30px;
+    bottom:0;
+    border-radius: 50px;
+    position: relative;
+    max-height: 50px;
+}
+/*hero btn*/
+.btn{
+    display: inline-block;
+    background:#eee;
+    color:aqua ;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 50%;
+    transition: background 0.5;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background:#563434; 
+}
 .carousel-inner{
     max-height: 700vh;
 }
