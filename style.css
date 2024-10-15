@@ -35,17 +35,13 @@ body {
     max-height: 700vh;
 }
 .wrapper {
-     background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-    
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+     background: #eee;
     overflow: auto;
 }
 
 .container {
     margin: 0 auto;
- background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-    
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+ background: #eee;
     max-width: 800px;
     width: 100%;
     padding: 0 15px;
@@ -53,9 +49,7 @@ body {
 }
 
 .footer {
-	 background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-    
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+	 background: #eee;
     font-size: 0.85rem;
     padding: 20px 0;
     line-height: 1.6;
@@ -63,27 +57,23 @@ body {
 .footer__text,
 .footer__link,
 .footer__title {
-    color: white;
+    color:#726a95;
     padding: 3px 15px;
     display: block;
-    background: black;
+    background: #eee;
 }
 
 .footer__hr {
     height: 1px;
     border: none;
-    background: background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-    
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    background: #eee;
 }
 
 .footer__sections {
     display: flex;
     flex-wrap: wrap;
     padding: 0;
-    background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-    
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+    background:#eee;
 }
 
 .footer__section {
