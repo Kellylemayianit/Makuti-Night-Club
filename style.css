@@ -216,7 +216,7 @@ body {
     background-position: left top;
     background-repeat: no-repeat;
     min-height: 100vh;
-    color: #fff;
+    color: #726a95;
     position: relative;
     padding: 100px 20px;
 }
@@ -333,7 +333,7 @@ body {
 .title{
     text-align: center;
     text-transform: capitalize;
-    color: white;
+    color: #726a95;
     margin: 10px 0;
     position: relative;
 }
