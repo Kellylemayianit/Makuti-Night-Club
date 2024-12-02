@@ -48,61 +48,73 @@ body {
     box-sizing: border-box;
 }
 
-.footer {
-	 background: #eee;
-    font-size: 0.85rem;
-    padding: 20px 0;
-    line-height: 1.6;
-}
-.footer__text,
-.footer__link,
-.footer__title {
-    color:#726a95;
-    padding: 3px 15px;
-    display: block;
-    background: #eee;
-}
-
-.footer__hr {
-    height: 1px;
-    border: none;
-    background: #eee;
-}
-
-.footer__sections {
+*footer   */
+.footer{
+    width: 100%;
+    padding: 100px 15%;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    background:#eee;
+    margin-top: 0px;
+    background: #333;
+    color: #efefef;
 }
-
-.footer__section {
-    box-sizing: border-box;
-    width: 25%;
-    padding: 15px 0;
-    flex-shrink: 0;
+.footer div{
+    text-align: center;
 }
-
-.footer__title {
-    font-weight: bold;
+.col-2{
+    flex-grow: 2;
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+}
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: gold;
     margin-bottom: 10px;
 }
-
-.footer__link {
-    text-decoration: none;
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+margin-top: 30px;
+}
+.social-icons i{
+font-size: 22px;
+margin: 10px;
+cursor: pointer;
 }
 
-.footer__link:hover {
-    color: #cccccc;
-    background: rgba(255, 255, 255, 0.15);
+@media(max-width: 858px){
+.footer{  flex-direction: column;
+    align-items: center;}
+form input{
+    width: 200px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
 }
-
-@media screen and (max-width: 768px) {
-    .footer__section { width: 50%; }
-}
-
-@media screen and (max-width: 480px) {
-    .footer__section { width: 100%; }
 }
 /*navlinks*/
 /* Add a black background color to the top navigation */
