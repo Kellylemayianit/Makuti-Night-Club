@@ -34,14 +34,10 @@ body {
 .carousel-inner{
     max-height: 700vh;
 }
-.wrapper {
-     background: #eee;
-    overflow: auto;
-}
 
 .container {
     margin: 0 auto;
- background: #eee;
+    background: #eee;
     max-width: 800px;
     width: 100%;
     padding: 0 15px;
