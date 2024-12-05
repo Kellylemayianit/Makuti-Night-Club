@@ -74,12 +74,6 @@ body {
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
-.col-1 a{
-    display: block;
-    text-decoration: none;
-    color: gold;
-    margin-bottom: 10px;
-}
 form input{
     width: 400px;
     height: 45px;
