@@ -46,6 +46,7 @@ body {
 
 /*footer   */
 .footer{
+    font-size: 17px;
     width: 100%;
     padding: 100px 15%;
     display: flex;
@@ -56,8 +57,17 @@ body {
 .footer div{
     text-align: center;
 }
-.col-2{
-    flex-grow: 2;
+.col-1 {
+    flex: auto;
+    width: 8.33333333%;
+}
+.col-2 {
+    flex: auto;
+    width: 16.66666667%;
+}
+.col-3 {
+    flex: auto;
+    width: 25%;
 }
 .footer div h3{
     font-weight: 300;
