@@ -61,6 +61,13 @@ body {
     flex: auto;
     width: 8.33333333%;
 }
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: gold;
+    margin-bottom: 10px;
+}
 .col-2 {
     flex: auto;
     width: 16.66666667%;
@@ -68,12 +75,6 @@ body {
 .col-3 {
     flex: auto;
     width: 25%;
-}
-.col-1 a{
-    display: block;
-    text-decoration: none;
-    color: gold;
-    margin-bottom: 10px;
 }
 .footer div h3{
     font-weight: 300;
