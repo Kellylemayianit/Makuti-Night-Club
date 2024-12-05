@@ -58,7 +58,7 @@ body {
     text-align: center;
 }
 .col-1 {
-    flex: flex-grow: 2;;
+    flex-grow: 2;
     
 }
 
